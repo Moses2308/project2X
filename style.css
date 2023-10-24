@@ -9,6 +9,8 @@ body {
 /* heading styles */
 header {
   width: 100%;
+  float: left;
+  clear: both;
 }
 header img {
   float: left;
