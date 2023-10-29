@@ -78,7 +78,7 @@ aside {
 aside img {
   display: block;
   width: 100%;
-  max-width: 450px;
+  /* max-width: 450px; */
   margin: auto;
   /* marign auto centers on block elements */
 }
@@ -93,4 +93,39 @@ footer {
 #nav_menu ul li:focus {
   background-color: var(--color-sunset);
   transition: background-color 0.25s ease-in-out;
+}
+/* FORM STYLES */
+form {
+  margin-top: 1rem;
+  border: 2px solid var(--color-darkBlue);
+  padding: 1rem;
+  background-color: var(--color-coolGrey);
+}
+form div {
+  padding: 0.25rem 0;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+}
+fieldset {
+  padding: 0.5rem 0;
+  background-color: white;
+}
+form button {
+  margin-top: 1rem;
+  padding: 0.5em 1.5em;
+  background-color: var(--color-darkBlue);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 2em;
+}
+form button:focus,
+form button:hover {
+  background-color: rgb(104, 190, 104);
+  transition: background-color 0.2s ease-out;
 }
