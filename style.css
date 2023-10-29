@@ -115,7 +115,7 @@ fieldset {
   background-color: white;
 }
 form button {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   width: 100%;
   padding: 1rem 0;
   background-color: var(--color-darkBlue);
@@ -128,5 +128,10 @@ form button {
 form button:focus,
 form button:hover {
   background-color: rgb(104, 190, 104);
+  transition: background-color 0.2s ease-out;
+}
+.reset:focus,
+.reset:hover {
+  background-color: var(--color-sunset);
   transition: background-color 0.2s ease-out;
 }
